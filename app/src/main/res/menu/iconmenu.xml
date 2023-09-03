@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item android:id="@+id/menu_toprated"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="Top Rated Places" />
+
+        <item android:id="@+id/menu_map"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="Google Map" />
+    </group>
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+
+            <menu>
+                <item android:id="@+id/bookmark"
+                    android:icon="@drawable/turned_in"
+                    android:title="Bookmarked Places"
+                    />
+                <item android:id="@+id/menu_logout"
+                    android:icon="@drawable/ic_baseline_logout"
+                    android:title="Log out"  />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communication">
+
+            <menu>
+                <item android:id="@+id/menu_aboutus"
+                    android:icon="@drawable/ic_aboutus"
+                    android:title="About us"  />
+
+
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+
+
+</menu>

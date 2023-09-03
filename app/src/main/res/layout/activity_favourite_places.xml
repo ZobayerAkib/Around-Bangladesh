@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".favourite_places">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="80dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Bookmarked places:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/saint"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/saint" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desSaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Saint Martin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/kuakata"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/kua" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desKua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="kuakata"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/sajek"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/saj" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desSaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Sajek"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/foys"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/foy" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desfoys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="foys lake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/nijhum"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/nij" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desnij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="nijhum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/sundarban"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/sun" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/dessun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="sundarban"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/cox"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/cox" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/descox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Cox's Bazar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/himchori"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/him" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/deshim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Himchori"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/patenga"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/paten" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/despaten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Patenga"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/ahsan"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/ahs" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desahsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Ahsanmonjil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/lalbag"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/lal" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/deslal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Lalbagh Fort"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/batali"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/bat" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desbata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Batali Hill"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/shita"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shi" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desshita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Shitakundo Eco-Park"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/vatiary"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/vat" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desvati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Vatiary Lake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/jaflong"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/jaf" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desjaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+       android:layout_gravity="center"
+        android:text="Jaflong"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/bichana"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/bic" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desbicha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Bichanakandi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/bagha"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/bag" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desbagha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Bagha Mosque"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/kotka"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/kot" />
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/deskotka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="Kotka Sea Beach"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/durga"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/dur" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desdurga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:text="Durga Shagor Dighi"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/bhawal"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/vawal" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desbhawal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:text="Bhawal Forest"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/tara"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/taramosjid" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desTara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:text="Tara Mosque"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/hamham"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hamham_jhorna" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/desHamham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:text="Hamham Jhorna"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/lala"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/lala_khal" />
+        </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/deslala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:padding="5dp"
+        android:text="Lala khal"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/varendra"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/varendra" />
+        </androidx.cardview.widget.CardView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="2dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:padding="5dp"
+            android:text="Varendra Research Museum"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:visibility="gone"
+        android:id="@+id/hiron"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:elevation="10dp"
+
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hiron_point" />
+        </androidx.cardview.widget.CardView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="2dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:padding="5dp"
+            android:text="Hiron Point"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

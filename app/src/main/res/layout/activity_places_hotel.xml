@@ -1,0 +1,3110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".places_hotel">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/desSaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+
+        android:text="Saint Martin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        android:visibility="gone"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/desKua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="kuakata"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/desSaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="Sajek"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/desfoys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="foys lake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/desnij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="nijhum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/dessun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="sundarban"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/descox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="Cox's Bazar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+    <TextView
+        android:id="@+id/deshim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:fontFamily="@font/bungee_shade"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="Himchori"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/despaten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Patenga"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desahsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Ahsanmonjil"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/deslal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Lalbagh Fort"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desbata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Batali Hill"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desshita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Shitakundo Eco-Park"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desvati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Vatiary Lake"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desjaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Jaflong"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desbicha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Bichanakandi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desbagha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Bagha Mosque"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/deskotka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Kotka Sea Beach"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desdurga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Durga Shagor Dighi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desbhawal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Bhawal Forest"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/destara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Tara Mosque"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/deshamham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Hamham Jhorna"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/deslala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Lala Khal"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desVaren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Varendra Research Museum"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+        <TextView
+            android:id="@+id/desHiron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bungee_shade"
+            android:padding="5dp"
+            android:text="Hiron Point"
+            android:visibility="gone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+//hotel(saint martin)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linSaint"
+            android:visibility="gone"
+            >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/saint1"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center"
+
+                android:elevation="10dp"
+
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/hotel_sm" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/baloo_thambi"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Hotel Saint Martin"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BDT:2,372-3,049/ day"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/saint2"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:elevation="10dp"
+
+                app:cardCornerRadius="15dp">
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/fantasy_hotel_sm" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/baloo_thambi"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Fantasy Hotel and Resort"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BDT:8,223-11,614/ day"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/saint3"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:elevation="10dp"
+
+                app:cardCornerRadius="15dp">
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/prash_sm" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/baloo_thambi"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Prasad Paradise"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BDT:6,278-6,617/ day"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/saint4"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="10dp"
+
+                app:cardCornerRadius="15dp">
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/royal_cox" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/baloo_thambi"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Royal Tulip Sea Pearl Resort"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BDT:6,000-10,000 /day"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/saint5"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:elevation="10dp"
+
+                app:cardCornerRadius="15dp">
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/muscat_cpx" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/baloo_thambi"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Muscat Holiday Resort"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BDT:1,700-3,000 /day"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        </LinearLayout>
+
+ //hotel(kuakata)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linKua"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/kua1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/graver_inn_kua" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Graver Inn"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,500-4,000 /day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/kua2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_khan_palace_kua" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Khan Palace"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,500-5,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/kua3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/kuakata_grand_hotel_kua" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Kuakata Grand Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:4,000-5,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/kua4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/sagor_konna_kua" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Sagor Konna Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="2,700-4,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/kua5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/somudra_bari_kua" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Somudra Bari Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT 5,082-BDT 5,167 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+//hotel(sajek)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linSajek"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/saj1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/salka_saj" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Salka Eco Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,500/ day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/saj2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/meghardee_saj" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Meghadree Eco Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:4,250/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/saj3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/mono_adam_saj" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Mono Adam Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,500-3,500/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/saj4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/rungrang_saj" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Resort RungRang"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="2,500 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/saj5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/sajek_resort_saj" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Sajek Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT 5,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+//hotel(foys)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linFoys"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/foy1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/foys_lake_foy" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Foys Lake Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:5,500-6,531 /day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/foy2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_hilton_foy" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Hilton City"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,829-3,526 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/foy3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/executive_foys" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Executive Residence"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,587-3,312 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/foy4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_agrabad_foy" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Hotel agrabad"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="6,400 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/foy5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/ambassador_residency_foy" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Amsassador Residency"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT 3,400 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+//hotel(nijhum)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linNijhum"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/nij1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_vista_nij" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Vista Bay"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,798-4,747 /day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/nij2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grace_nij" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Grace Cox Smart Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/nij3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/shamuda_nij" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Shamuda Waves Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:5,000-6,634 day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/nij4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/muscat_cpx" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Muscat Holiday Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/nij5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grand_cox" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Grand Beach Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,000-2,500 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+ //hotel(sundarban \\ kotka sea beach \\ hiron)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linSundarban"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/sun1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/tiger_sun" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Tiger Garden International Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,886-5,259 /day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/sun2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/zabeer_sun" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Zabeer International Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:7,454-11,604 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/sun3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/divine_sun" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Divine Centre Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:7,000-16,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/sun4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_castle_salam_sun" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Hotel castle Salam"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,700 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/sun5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_royal_int_sun" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Royal Int."
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,000/day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+ //hotel(coxs)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linCoxs"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/cox1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/royal_cox" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Royal Tulip Sea Pearl Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,000-10,000 /day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/cox2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/muscat_cpx" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Muscat Holiday Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/cox3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grand_cox" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Grand Beach Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,000-2,500 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/cox4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grace_nij" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Grace Cox Smart Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/cox5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/prash_sm" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Prasad Paradise"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+ //hotel(himchori)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linHim"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/him1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grace_nij" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Grace Cox Smart Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/him2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/muscat_cpx" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Muscat Holiday Resort"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/him3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/prash_sm" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Prasad Paradise"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/him4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/royal_cox" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Royal Tulip Sea Pearl Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,000-10,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/him5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/grand_cox" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Grand Beach Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,000-2,500 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+//hotel(patenga \\ batali \\ shitakundo)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linPaten"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/pat1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl1_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Swiss Garden International"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/pat2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Golden Inn Chattagram Ltd"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/pat3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="The Peninsula Chittagong Limited"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/pat4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl4_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Executive Residence"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+//hotel(ahsanmonjil \\ lalbag \\ bhawal \\ tara)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linAhsan"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/ahs1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl1_ahsan" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Intercontinental"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/ahs2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_ahsan" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Pan Pacific Sonargaon"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/ahs3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_ahsan" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel 71"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            </LinearLayout>
+//hotel(vatiary)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linVati"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/vat1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/diamond_vati" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Diamond Park"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,641-/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/vat2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="White Inn"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/vat3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_paten" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Royal Avenue"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/vat4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/hotel_hilton_foy" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Hotel Hilton City"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+//hotel(jaflong \\ bichanakandi \\ hamham \\ lala)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linJaf"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/jaf1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl1_sajek" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Noorjahan Grand"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/jaf2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_sajek" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Rose View Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/jaf3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_sajek" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Supreme"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/jaf4"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl4_jaf" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Hotel Holy Gate"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,000-10,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/jaf5"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl5_jaf" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Polo Orchid Resort"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:2,000-2,500 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+//hotel(bagha mosque \\ varendra)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linBagha"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/bag1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl1_bagha" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Green City International"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/bag2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_bagha" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Star International"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/bag3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_bagha" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Mukta International"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+           </LinearLayout>
+ //hotel(durga shagor)
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linDur"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/dur1"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl1_dur" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Hotel Grand Park"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:3,641-5,927/day"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/dur2"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl2_dur" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Tiger Garden Int. Hotel"
+                    android:textSize="17dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:1,700-3,000 /day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/layout_bg"
+                android:id="@+id/dur3"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:elevation="10dp"
+
+                    app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/htl3_dur" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_thambi"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="Pushpo Bilash"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="BDT:6,278-6,617/ day"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+  </LinearLayout>
+
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

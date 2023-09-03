@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aroundbangladesh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lgo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AroundBangladesh">
+        <activity android:name=".about_us"></activity>
+        <activity android:name=".places_bookmark" />
+        <activity android:name=".favourite_places" />
+        <activity android:name=".places_food" />
+        <activity android:name=".places_hotel" />
+        <activity android:name=".bottomNav" />
+        <activity android:name=".places_route" />
+        <activity android:name=".places_description" />
+        <activity android:name=".profile" />
+        <activity android:name=".syllhet" />
+        <activity android:name=".rajshahi" />
+        <activity android:name=".khulna" />
+        <activity android:name=".chittagong" />
+        <activity android:name=".barisal" />
+        <activity android:name=".dhaka" />
+        <activity android:name=".Toprated" />
+        <activity android:name=".historical" />
+        <activity android:name=".forest" />
+        <activity android:name=".island" />
+        <activity android:name=".lake" />
+        <activity android:name=".hill" />
+        <activity android:name=".seaBeach" />
+        <activity android:name=".map" />
+        <activity android:name=".searchBar" />
+        <activity
+            android:name=".HomePage"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".register" />
+        <activity android:name=".password" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AroundBangladesh" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

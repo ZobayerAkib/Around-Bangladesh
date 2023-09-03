@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".places_food">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/desSaint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+
+                android:text="Saint Martin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                android:visibility="gone"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desKua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="kuakata"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desSaj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Sajek"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desfoys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="foys lake"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desnij"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="nijhum"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/dessun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="sundarban"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/descox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Cox's Bazar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/deshim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Himchori"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/despaten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Patenga"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desahsan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Ahsanmonjil"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/deslal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Lalbagh Fort"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desbata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Batali Hill"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desshita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Shitakundo Eco-Park"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desvati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Vatiary Lake"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desjaf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Jaflong"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desbicha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Bichanakandi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desbagha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Bagha Mosque"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/deskotka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Kotka Sea Beach"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desdurga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="Durga Shagor Dighi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desbhawal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Bhawal Forest"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/destara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Tara Mosque"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/deshamham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Hamham Jhorna"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/deslala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Lala Khal"
+               android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desVaren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Varendra Research Museum"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/desHiron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:fontFamily="@font/bungee_shade"
+                android:padding="5dp"
+                android:text="Hiron Point"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.294"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            //saint martin
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodSaint">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Mermaid Restaurant\n2.CTB Restaurant\n3.Appayan\n4.Hasan Restaurant\n5.SeaSalt Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_saint"/>
+            </LinearLayout>
+
+            //kuakata
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodKuakata">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Ruposi Bangla Hotel\n2.Kuakata Beach Fish Bar-BQ\n3.Bashpata Restora\n4.Payra Restaurant\n5.Jhangir Khabar Hotel"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rkuakata"/>
+            </LinearLayout>
+
+            //sajek
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodSajek">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Megh Kabbo HillTop Sajek\n2.Dream Sajek Ressort\n3.Sajek Bilash Hotel\n4.Chhimbal Restaurant\n5.Abakash Eco Cottage Sajek"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_sajek"/>
+            </LinearLayout>
+
+            //foys lake
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodFoysLake">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Spicy Kitchen Chittagong\n2.Hotel Zaman\n3.Alif Restaurant\n4.Aram Hotel\n5.Khulshi Hakim Hotel"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_foys"/>
+            </LinearLayout>
+
+            //nijhum dwip
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodNijhum">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Hotel Al Madina\n2.Bismillah Hotel\n3.Nijhum Ressort"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_nijhum"/>
+            </LinearLayout>
+
+            //sundarban
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodSundarban">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Kasturi Restaurant\n2.Haka Restaurant\n3.Melting Point\n4.Sizzler\n5.Paradise Biriyani"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_sundarban"/>
+            </LinearLayout>
+
+            //cox's bazar
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodCox">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Cafe Hamza\n2.MA Fast Food\n3.Slat Bistro and Cafe\n4.Chopsticks and Chutney\n5.Ruposhi Bangla Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_cox"/>
+            </LinearLayout>
+
+            //himchori
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodHimchori">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Salt Bistro and Cafe\n2.Ruposhi Bangla Restaurant\n3.Mermaid Cafe\n4.Casablanca Restaurant\n5.Sun Dancer Cafe"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/food_himchori"/>
+            </LinearLayout>
+
+            //patenga
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodPatenga">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Arab Ali Restaurant\n2.Riverine Restaurant\n3.West point cafe\n4.Nongor Multi-cuisine  Rooftop Restaurant\n5.Fly Top Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rpatenga"/>
+            </LinearLayout>
+
+            //ahsanmonjil
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodAhsan">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Star Hotel and Restaurant\n2.Sen hotel and Restaurant\n3.Janani Restaurant\n4.Fresco Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rahsan"/>
+            </LinearLayout>
+
+            //lalbagh fort
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodLalbagh">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Adda Restaurant\n2.Nando's\n3.Handi\n4.Thirty3 Restaurant\n5.The Old Street"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rlalbag"/>
+            </LinearLayout>
+
+            //batali hill
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodBatali">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Pitstop Restaurant\n2.Regalo\n3.Patil Restaurant\n4.Grand Mughal Restaurant\n5.Broast Cafe"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rbatali"/>
+            </LinearLayout>
+
+            //shitakundo
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodShitakundo">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Fine Foods BD\n2.SK sweets\n3.Tayabia hotel\n4.Al amin Restaurant\n5.Vooj Restaurant\n6.Apon Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rshita"/>
+            </LinearLayout>
+
+            //vatiary lake
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodVatiary">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Khaja Hotel\n2.Allahr Dan Hotel\n3.Golf Garden Restaurant\n4.FFC\n5.T M Fast Food"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/svatiary_lake"/>
+            </LinearLayout>
+
+            //jaflong
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodJaflong">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Food is good mood\n2.Jaflong View Restaurant\n3.Shimanto View Restaurant\n4.LT Restaurant,Dawki\n5.Picnic centre Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/sjaflong"/>
+            </LinearLayout>
+
+            //bichanakandi
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodBisankandi">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Al Amin Restaurant\n2.Meghalaya Vasooman Restaurant\n3. Armaner Vater Hotel\n4.Tourist Man Hotel"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/sbichanakandi"/>
+            </LinearLayout>
+
+            //bagha mosque
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodBagha">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Prottasha Restaurant\n2.Rowsonara Hotel\n3.Anando Sweets\n4.Kamal Bakery\n5.Alom tea Stall"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/sbagha_mosque"/>
+            </LinearLayout>
+
+            //kotka sea beach
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodKotka">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Rakib Restaurant\n2.Munsi Restora\n3.Solayman Khan Store\n4.Bangladesh Rajmahal"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/skotka_sea_beach"/>
+            </LinearLayout>
+
+            //durga sea beach
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodDurgaShagor">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.cafe Student\n2.Maa Restora\n3.Tanha Hotel and Restaurant\n4.Shohag Tea Stall\n5.Salam Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/sdurga_shagor_dighi"/>
+            </LinearLayout>
+
+            //bhawal
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodBhawal">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Bismillah Hotel and Restaurant\n2.Brac CDM"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/resturantvawal"/>
+            </LinearLayout>
+
+            //tara masjid
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodTaraMasjid">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Nirob Hotel\n2.Spice and Herbs Restaurant\n3.Pafin Chinese Restaurant\n4.Bismillah Restaurant\n5.Kolkata Kacchi ghor\n6.Chanda hotel and Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rtara"/>
+            </LinearLayout>
+
+            //hamham jhorna
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodHamham">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Nur jahan Hotel\n2.HumHum Restaurant\n3.Sinha Restaurant\n4.Eat Good,Do Good\n5.RAJARAM Restaurant\n6.Shatkora Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rhamham"/>
+            </LinearLayout>
+
+            //lala khal
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodLala">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Nazimgarh Wolderness Resort\n2.Life Kitchen\n3.River Queen Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rlala"/>
+            </LinearLayout>
+
+            //varendra research museum
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodVarendra">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Fs Home Kitchen\n2.Shanti khabar Ghar\n3.FoodShahi\n4.Fusion Cuisine"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/varendrarest"/>
+            </LinearLayout>
+
+            //hiron point
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/foodHiron">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/baloo_tamma"
+                    android:padding="10dp"
+                    android:text="1.Waej kuruni\n2.Sundarban Restaurant"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    app:src="@drawable/rhiron"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
